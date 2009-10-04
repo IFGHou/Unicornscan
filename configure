@@ -25723,7 +25723,7 @@ yes)
 	lookin=$default_libdnet_directories
 	;;
 *)
-	lookin=$dnet_pfx
+	lookin=$withval
 	;;
 esac
 
